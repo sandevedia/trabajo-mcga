@@ -1,15 +1,13 @@
 {
   "name": "trabajo-mcga",
-  "version": "1.0.0",
-  "description": "aplicación con reactjs",
-  "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "10.15.3"
   },
   "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.12.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-redux": "^7.1.1",
@@ -19,17 +17,14 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0"
   },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": "react-app"
-  },  
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sandevedia/trabajo-mcga.git"
-  },
-  "author": "santiago alarcon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sandevedia/trabajo-mcga/issues"
   },
   "browserslist": {
     "production": [
@@ -42,6 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://github.com/sandevedia/trabajo-mcga#readme"
+  }
 }
