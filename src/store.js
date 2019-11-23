@@ -78,8 +78,8 @@ export const handleLogin = (email, password) => {
       type: "login_pending"
     })
 
-    return fetch ("http://localhost:4000/login", {
-      baseURL: "http://localhost:4000",
+    return fetch ("https://salarcon-mcga-server.herokuapp.com/login", {
+      baseURL: "https://salarcon-mcga-server.herokuapp.com",
       timeout: 25000,
       method: "POST",
       headers: {
